@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+
+.container-en {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+}
+
+.myName {
+    margin: 2rem;
+    margin-bottom: 3rem;
+    font-style: italic;
+    box-shadow: -7px -3px 5px rgba(214, 214, 214, 0.774);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.time p {
+    word-spacing: 2rem;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+    text-shadow: -2px -1px 2px rgb(179, 179, 179);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.counter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.counter div p{
+    margin-top: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+.counter div h1{
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.counter div h1,
+.counter div p {
+    border: .1px solid rgb(231, 231, 255);
+    padding: 5px;
+    text-shadow: -1px -1px 2px rgb(179, 179, 179);
+    
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    margin: 2rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.container p{
+    margin: 1rem;
+    text-shadow: -1px -1px 2px gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dis-none {
+    display: none;
+
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    html{
+        font-size: 10px;
+    }    
+    .container-en {
+        height: 100vh;
+    }
+    .myName{
+        position: relative;
+        top: -4rem;
+    }
+    .time {
+        position: relative;
+        top: -2rem;
+    }
+}
