@@ -6,7 +6,7 @@ const container = document.querySelector("#container");
 const containerEn = document.querySelector(".container-en");
 
 const mybirth = setInterval(() => {
-    let birthDate = new Date("March 04 2023 14:19:00").getTime();
+    let birthDate = new Date("June 20 2024 00:00:00").getTime();
 
     let currentDate = new Date().getTime();
 
